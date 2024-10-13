@@ -1,6 +1,6 @@
 # aliasify-imports &middot; [![license](https://badgen.now.sh/badge/license/MIT)](./LICENSE)
 
-A codemod that swaps relative imports for aliases — your go-to buddy for project refactoring!
+A codemod that swaps relative imports for aliases — your go-to buddy for project refactoring! ⚡️💻
 
 ## Installation
 
