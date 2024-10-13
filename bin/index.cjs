@@ -6,6 +6,7 @@
  */
 const path = require('node:path');
 const minimist = require('minimist');
+const process = require('node:process');
 const Runner = require('jscodeshift/src/Runner');
 
 const transformPath = path.resolve(__dirname, '../index.cjs');
