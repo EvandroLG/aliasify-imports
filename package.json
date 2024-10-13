@@ -1,6 +1,6 @@
 {
   "name": "aliasify-imports",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A codemod that swaps relative imports for aliases — your go-to buddy for project refactoring!",
   "main": "index.cjs",
   "bin": {

@@ -13,7 +13,7 @@ npm install -g aliasify-imports
 Run the transformation on your source directory:
 
 ```sh
-jscodeshift -t aliasify-imports.js src
+aliasify-imports --srcDir src --alias @
 ```
 
 ## CLI Options
