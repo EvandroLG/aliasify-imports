@@ -16,16 +16,6 @@ Run the transformation on your source directory:
 aliasify-imports --srcDir src --alias @
 ```
 
-## CLI Options
-
-- `--alias` (Default: `@`) - The alias to use for the import paths.
-- `--srcDir` (Default: `src`) - The source directory to use for the alias.
-- `--parser` (Default: 'tsx') - The parser to use
-- `--extensions` (Default: 'js,jsx,ts,tsx') - The file extensions to transform
-- `--help` - Display the help message
-
-## Example
-
 ### Before
 
 ```js
@@ -45,6 +35,14 @@ import Logo from '@/assets/images/logo.png';
 import Utils from '@/utils/helpers';
 import Footer from '@/components/Footer';
 ```
+
+## CLI Options
+
+- `--alias` (Default: `@`) - The alias to use for the import paths.
+- `--srcDir` (Default: `src`) - The source directory to use for the alias.
+- `--parser` (Default: 'tsx') - The parser to use
+- `--extensions` (Default: 'js,jsx,ts,tsx') - The file extensions to transform
+- `--help` - Display the help message
 
 ## License
 
