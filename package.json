@@ -1,0 +1,30 @@
+{
+  "name": "aliasify-imports",
+  "version": "1.0.0",
+  "description": "A codemod that swaps relative imports for aliases — your go-to buddy for project refactoring!",
+  "main": "index.cjs",
+  "bin": {
+    "aliasify-imports": "./bin/index.cjs"
+  },
+  "scripts": {
+    "lint": "eslint index.cjs bin/index.cjs",
+    "lint:fix": "eslint --fix index.cjs bin/index.cjs",
+    "format": "prettier --write index.cjs bin/index.cjs"
+  },
+  "keywords": [
+    "jscodeshift",
+    "codemod",
+    "transform",
+    "alias",
+    "refactor"
+  ],
+  "author": "Evandro Leopoldino Goncalves",
+  "license": "MIT",
+  "dependencies": {
+    "jscodeshift": "^17.0.0",
+    "minimist": "^1.2.8"
+  },
+  "devDependencies": {
+    "prettier": "^3.3.3"
+  }
+}
